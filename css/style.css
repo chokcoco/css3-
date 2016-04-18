@@ -1,0 +1,70 @@
+body {
+  background-color: #efefef;
+  font-family: "Microsoft YaHei", "\5fae\8f6f\96c5\9ed1", Arial;
+  min-width: 1280px;
+}
+
+.container {
+  position: relative;
+}
+
+.demo-cube {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.demo-cube .cube-inner {
+  position: relative;
+}
+
+.demo-cube .cube-inner .top {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+.demo-cube .cube-inner .top:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-bottom: 20px solid rgba(126, 169, 232, 0.5);
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+}
+
+.demo-cube .cube-inner .top:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-top: 20px solid rgba(126, 169, 232, 0.5);
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+}
+
+.demo-cube .cube-inner .bottom {
+  position: absolute;
+  top: 40px;
+}
+
+.demo-cube .cube-inner .bottom:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-bottom: 20px solid rgba(126, 169, 232, 0.8);
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+}
+
+.demo-cube .cube-inner .bottom:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-top: 20px solid rgba(126, 169, 232, 0.8);
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+}
