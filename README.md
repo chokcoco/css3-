@@ -3,10 +3,10 @@
 
 自己学习 css3 的一个过程，没有对兼容性进行处理，请使用最新版 chrome 浏览器浏览打开
 
-#### 立方体 3d 旋转
+#### 立方体 3D 旋转
 ![](https://github.com/chokcoco/css3-/blob/master/images/example1.gif)
 
-#### 3d 透视照片墙
+#### 3D 透视照片墙
 ![](https://github.com/chokcoco/css3-/blob/master/images/example2.gif)
 
 #### 跳跃的音符
