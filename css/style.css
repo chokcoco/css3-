@@ -384,7 +384,7 @@
     -webkit-transform: rotateX(-33.5deg) rotateY(45deg);
     transform: rotateX(-33.5deg) rotateY(45deg);
   }
-  10%, to {
+  40%, to {
     -webkit-transform: rotateX(-33.5deg) rotateY(-315deg);
     transform: rotateX(-33.5deg) rotateY(-315deg);
   }
@@ -395,7 +395,7 @@
     -webkit-transform: rotateX(-33.5deg) rotateY(45deg);
     transform: rotateX(-33.5deg) rotateY(45deg);
   }
-  10%, to {
+  40%, to {
     -webkit-transform: rotateX(-33.5deg) rotateY(-315deg);
     transform: rotateX(-33.5deg) rotateY(-315deg);
   }
