@@ -93,6 +93,8 @@
   -moz-perspective: 800px;
   perspective: 800px;
   -webkit-transition: top 0.5s;
+  -moz-transition: top 0.5s;
+  transition: top 0.5s;
   position: relative;
 }
 
@@ -139,36 +141,48 @@
 }
 
 .demo-perspective-photo .example:nth-child(1) {
+  -webkit-transform: rotateY(0deg) translateZ(98px);
+  transform: rotateY(0deg) translateZ(98px);
   background-color: #99CCCC;
   -webkit-filter: blur(20px);
   filter: blur(10px);
 }
 
 .demo-perspective-photo .example:nth-child(2) {
+  -webkit-transform: rotateY(60deg) translateZ(98px);
+  transform: rotateY(60deg) translateZ(98px);
   background-color: #99CCCC;
   -webkit-filter: blur(16px);
   filter: blur(8px);
 }
 
 .demo-perspective-photo .example:nth-child(3) {
+  -webkit-transform: rotateY(120deg) translateZ(98px);
+  transform: rotateY(120deg) translateZ(98px);
   background-color: #99CCCC;
   -webkit-filter: blur(12px);
   filter: blur(6px);
 }
 
 .demo-perspective-photo .example:nth-child(4) {
+  -webkit-transform: rotateY(180deg) translateZ(98px);
+  transform: rotateY(180deg) translateZ(98px);
   background-color: #99CCCC;
   -webkit-filter: blur(8px);
   filter: blur(4px);
 }
 
 .demo-perspective-photo .example:nth-child(5) {
+  -webkit-transform: rotateY(240deg) translateZ(98px);
+  transform: rotateY(240deg) translateZ(98px);
   background-color: #99CCCC;
   -webkit-filter: blur(4px);
   filter: blur(2px);
 }
 
 .demo-perspective-photo .example:nth-child(6) {
+  -webkit-transform: rotateY(300deg) translateZ(98px);
+  transform: rotateY(300deg) translateZ(98px);
   background-color: #99CCCC;
 }
 
@@ -186,6 +200,7 @@
   height: 50px;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-40px, -25px);
   transform: translate(-40px, -25px);
   position: absolute;
 }
@@ -249,27 +264,28 @@
 .demo-loading {
   position: absolute;
   width: 100%;
-  height: 400px;
-  top: 1200px;
+  height: 200px;
+  top: 600px;
   background-color: #fff;
-  zoom: 1;
+  zoom: 2;
 }
 
 .demo-loading .demo6 {
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   position: absolute;
   top: 50%;
   left: 30%;
-  transform: translate(-25px, -25px);
+  -webkit-transform: translate(-12.5px, -12.5px);
+  transform: translate(-12.5px, -12.5px);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .demo-loading .demo6-x {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -278,23 +294,26 @@
   border-top-color: transparent;
   border-bottom-color: transparent;
   -webkit-animation: "aniSix-x" 1s ease-in-out 0.2s infinite;
+  animation: "aniSix-x" 1s ease-in-out 0.2s infinite;
 }
 
 .demo-loading .demo6-y {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 100%;
   background-color: #2196F3;
   -webkit-animation: "aniSix-y" 1s ease-in-out 0.2s infinite;
+  animation: "aniSix-y" 1s ease-in-out 0.2s infinite;
 }
 
 .demo-loading .demo8 {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 50px;
-  height: 50px;
-  transform: translate(-25px, -25px);
+  width: 25px;
+  height: 25px;
+  -webkit-transform: translate(-12.5px, -12.5px);
+  transform: translate(-12.5px, -12.5px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -304,62 +323,66 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   border-radius: 100%;
   background: radial-gradient(transparent 10%, rgba(33, 150, 243, 0.9) 100%);
   -webkit-animation: "aniTwo" 1s ease 0s infinite;
+  animation: "aniTwo" 1s ease 0s infinite;
 }
 
 .demo-loading .demo8-y {
   position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 46px;
-  height: 46px;
+  top: 1px;
+  left: 1px;
+  width: 23px;
+  height: 23px;
   border-radius: 100%;
   background: radial-gradient(transparent 10%, rgba(33, 150, 243, 0.8) 100%);
   -webkit-animation: "aniTwo" 1s ease 0.2s infinite;
+  animation: "aniTwo" 1s ease 0.2s infinite;
 }
 
 .demo-loading .demo8-z {
   position: absolute;
-  top: 5px;
-  left: 5px;
-  width: 40px;
-  height: 40px;
+  top: 2.5px;
+  left: 2.5px;
+  width: 20px;
+  height: 20px;
   border-radius: 100%;
   background: radial-gradient(transparent 10%, rgba(33, 150, 243, 0.7) 100%);
   -webkit-animation: "aniTwo" 1s ease 0.3s infinite;
+  animation: "aniTwo" 1s ease 0.3s infinite;
 }
 
 .demo-loading .demo8-m {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   border-radius: 100%;
   background: radial-gradient(transparent 10%, rgba(33, 150, 243, 0.6) 100%);
   -webkit-animation: "aniTwo" 1s ease 0.4s infinite;
+  animation: "aniTwo" 1s ease 0.4s infinite;
 }
 
 .demo-loading .demo10 {
-  position: position;
   position: absolute;
   top: 50%;
   left: 70%;
-  transform: translate(-45px, -45px);
-  width: 90px !important;
-  height: 90px !important;
-  padding-top: 20px;
+  -webkit-transform: translate(-22.5px, -22.5px);
+  transform: translate(-22.5px, -22.5px);
+  width: 45px !important;
+  height: 45px !important;
+  padding-top: 10px;
 }
 
 .demo-loading .demo10 > div {
-  width: 20px;
-  height: 20px;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
   border-radius: 100%;
   background-color: #2196F3;
   -webkit-filter: blur(2px);
@@ -369,14 +392,17 @@
 
 .demo-loading .demo10-a, .demo-loading .demo10-f, .demo-loading .demo10-h {
   -webkit-animation: "aniTen-e" 1s linear 0s infinite;
+  animation: "aniTen-e" 1s linear 0s infinite;
 }
 
 .demo-loading .demo10-b, .demo-loading .demo10-d, .demo-loading .demo10-i {
   -webkit-animation: "aniTen-e" 1s linear 0.15s infinite;
+  animation: "aniTen-e" 1s linear 0.15s infinite;
 }
 
 .demo-loading .demo10-c, .demo-loading .demo10-e, .demo-loading .demo10-g {
   -webkit-animation: "aniTen-e" 1s linear 0.3s infinite;
+  animation: "aniTen-e" 1s linear 0.3s infinite;
 }
 
 @-webkit-keyframes fastspin {
@@ -402,6 +428,37 @@
 }
 
 @-webkit-keyframes photoRotate {
+  0% {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  16.7% {
+    -webkit-transform: rotateY(60deg);
+    transform: rotateY(60deg);
+  }
+  33.3% {
+    -webkit-transform: rotateY(120deg);
+    transform: rotateY(120deg);
+  }
+  50% {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+  66.7% {
+    -webkit-transform: rotateY(240deg);
+    transform: rotateY(240deg);
+  }
+  83.3% {
+    -webkit-transform: rotateY(300deg);
+    transform: rotateY(300deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes photoRotate {
   0% {
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
@@ -470,6 +527,18 @@
 
 @-webkit-keyframes aniSix-x {
   0% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes aniSix-x {
+  0% {
     transform: rotate(0deg);
   }
   50% {
@@ -481,6 +550,18 @@
 }
 
 @-webkit-keyframes aniSix-y {
+  0% {
+    -webkit-transform: scale(0.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.1);
+  }
+}
+
+@keyframes aniSix-y {
   0% {
     transform: scale(0.1);
   }
@@ -494,6 +575,17 @@
 
 @-webkit-keyframes aniTwo {
   0% {
+    -webkit-transform: scale(0.1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+    opacity: 0.2;
+  }
+}
+
+@keyframes aniTwo {
+  0% {
     transform: scale(0.1);
     opacity: 1;
   }
@@ -505,11 +597,22 @@
 
 @-webkit-keyframes aniTen-e {
   0% {
-    opacity: 0.01;
+    opacity: 0.1;
+    -webkit-transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(0.4);
+  }
+}
+
+@keyframes aniTen-e {
+  0% {
+    opacity: 0.1;
     transform: scale(1.2);
   }
   100% {
     opacity: 1;
-    transform: scale(0.5);
+    transform: scale(0.4);
   }
 }
