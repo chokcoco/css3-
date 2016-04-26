@@ -7,7 +7,7 @@
 
 #### 效果示意图
 
-[太阳系运转demo戳我, 请用 chrome 打开](http://chokcoco.github.io/demo/css3demo/html/exampleSolarSystem.html)
+[太阳系运转demo戳我, 请用chrome打开](http://chokcoco.github.io/demo/css3demo/html/exampleSolarSystem.html)
 
 ![](https://github.com/chokcoco/css3-/blob/master/images/solarSystem.gif)
 
