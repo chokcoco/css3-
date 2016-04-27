@@ -87,7 +87,7 @@ $(function() {
 			radius = Math.round( (250) / Math.tan( Math.PI / itemLength ) );
 
 			window.addEventListener("mousemove", onMouseMove, false);
-			// window.ticker = setInterval( looper, 1000/60 );
+			window.ticker = setInterval( looper, 1000/60 );
 		}
 		return {
 			init: function() {

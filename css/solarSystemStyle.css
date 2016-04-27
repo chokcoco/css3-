@@ -44,6 +44,7 @@
   -ms-transform: translate3d(0, 0, -1000px) rotateX(-15deg);
   transform-style: preserve-3d;
   transform: translate3d(0, 0, -1000px) rotateX(-15deg);
+  will-change: transform;
 }
 
 .demo-perspective-photo .mod-sun {
@@ -53,6 +54,15 @@
   width: 200px;
   height: 200px;
   margin: -100px 0 0 -100px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform-style: preserve-3d;
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform-style: preserve-3d;
+  -ms-transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
 }
 
 .demo-perspective-photo .mod-sun .x, .demo-perspective-photo .mod-sun .y, .demo-perspective-photo .mod-sun .z {
@@ -83,6 +93,7 @@
   animation: rotateItself 20s linear infinite 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  will-change: transform;
 }
 
 .demo-perspective-photo .mod-sun .x .y {
@@ -210,6 +221,9 @@
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform-style: preserve-3d;
   -ms-transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
 }
 
 .demo-perspective-photo .example1 {
@@ -248,6 +262,7 @@
   animation: rotateItself 8s linear infinite 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  will-change: transform;
 }
 
 .demo-perspective-photo .example1 .x .y {
@@ -403,6 +418,7 @@
   animation: rotateItself 12s linear infinite 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  will-change: transform;
 }
 
 .demo-perspective-photo .example2 .x .y {
@@ -558,6 +574,7 @@
   animation: rotateItself 40s linear infinite 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  will-change: transform;
 }
 
 .demo-perspective-photo .example3 .x .y {
@@ -713,6 +730,7 @@
   animation: rotateItself 30s linear infinite 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  will-change: transform;
 }
 
 .demo-perspective-photo .example4 .x .y {
@@ -868,6 +886,7 @@
   animation: rotateItself 15s linear infinite 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  will-change: transform;
 }
 
 .demo-perspective-photo .example5 .x .y {
@@ -1023,6 +1042,7 @@
   animation: rotateItself 30s linear infinite 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  will-change: transform;
 }
 
 .demo-perspective-photo .example6 .x .y {
@@ -1245,15 +1265,6 @@
   }
 }
 
-@-webkit-keyframes rotateSun {
-  0% {
-    -webkit-transform: rotateY(0deg) rotateX(0deg);
-  }
-  100% {
-    -webkit-transform: rotateY(360deg) rotateX(360deg);
-  }
-}
-
 @keyframes rotateSun {
   0% {
     transform: rotateY(60deg) translateZ(950px);
@@ -1281,7 +1292,7 @@
   }
 }
 
-@-webkit-keyframes rotateSun {
+@-webkit-keyframes rotateSunTwo {
   0% {
     -webkit-transform: rotateY(60deg) translateZ(800px);
   }
@@ -1299,7 +1310,7 @@
   }
 }
 
-@-webkit-keyframes rotateSun {
+@-webkit-keyframes rotateSunThree {
   0% {
     -webkit-transform: rotateY(60deg) translateZ(650px);
   }
@@ -1317,7 +1328,7 @@
   }
 }
 
-@-webkit-keyframes rotateSun {
+@-webkit-keyframes rotateSunFour {
   0% {
     -webkit-transform: rotateY(60deg) translateZ(520px);
   }
@@ -1335,7 +1346,7 @@
   }
 }
 
-@-webkit-keyframes rotateSun {
+@-webkit-keyframes rotateSunFive {
   0% {
     -webkit-transform: rotateY(60deg) translateZ(400px);
   }
@@ -1353,7 +1364,7 @@
   }
 }
 
-@-webkit-keyframes rotateSun {
+@-webkit-keyframes rotateSunSix {
   0% {
     -webkit-transform: rotateY(60deg) translateZ(300px);
   }
