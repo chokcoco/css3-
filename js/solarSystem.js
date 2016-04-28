@@ -8,11 +8,20 @@ $(function() {
 			carousel = $('#carouselContainer');
 
 
-		// 获取鼠标 X、Y、Z
+		// 获取鼠标坐标
+		// 设置跟随动画变换
 		function onMouseMove(event) {
-			mouseX = -(-(window.innerWidth * .5) + event.pageX) * .0025;
-			mouseY = -(-(window.innerHeight * .5) + event.pageY) * .01;
-			mouseZ = -(radius) - (Math.abs(-(window.innerHeight * .5) + event.pageY) - 200);
+			// console.log('event.pageX '+event.pageX);
+			// console.log('event.pageY '+event.pageY);
+			// console.log('window.innerWidth '+window.innerWidth);
+			// console.log('window.innerHeight '+window.innerHeight);
+			// console.log('mouseX '+mouseX);
+			// console.log('mouseY '+mouseY);
+			// console.log('mouseZ '+mouseZ);
+			mouseX = -(-(window.innerWidth * .5) + event.pageX) * .0010;
+			mouseY = -(-(window.innerHeight * .5) + event.pageY) * .05;
+			mouseZ = -(radius) - (Math.abs(-(window.innerHeight * .5) + event.pageY)-100);
+			// mouseZ = - (Math.abs(mouseY) * 300 - 200);
 		}
 
 		// 容器变换
@@ -21,11 +30,18 @@ $(function() {
 
 			addX += mouseX;
 
+			// TweenMax.to(target,duration,variables)
+			// 让物体的属性从你声明这个方法时的状态变到任何你设定的效果
+			// target:Object ：你想要实现动画的目标物体
+			// duration:Number ：整个过程的时间
+			// variables:Object ：一个包括最终的所有你想得到的属性
 			TweenMax.to(carousel, 1, {
 				rotationY: addX,
 				rotationX: mouseY,
 				ease: Quint.easeOut
-			})
+			});
+
+			// 设置远近景
 			TweenMax.set(carousel, {
 				z: mouseZ
 			});
@@ -60,6 +76,7 @@ $(function() {
 					randomScale = getRandomNum(1.5),
 					divCss = {
 						'position': 'absolute',
+						'z-index':'10',
 						'width': '2px',
 						'height': '2px',
 						'border-radius': '2px',
@@ -84,10 +101,12 @@ $(function() {
 			var stageWidth = carousel.width(),
 				itemLength = $('.example').length;
 
+			// 角度设置
 			radius = Math.round( (250) / Math.tan( Math.PI / itemLength ) );
 
+			// 绑定鼠标跟随事件
 			window.addEventListener("mousemove", onMouseMove, false);
-			window.ticker = setInterval( looper, 1000/60 );
+			ticker = setInterval( looper, 1000/60 );
 		}
 		return {
 			init: function() {

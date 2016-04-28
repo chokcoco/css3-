@@ -45,6 +45,7 @@
   transform-style: preserve-3d;
   transform: translate3d(0, 0, -1000px) rotateX(-15deg);
   will-change: transform;
+  z-index: 100;
 }
 
 .demo-perspective-photo .mod-sun {
@@ -83,8 +84,9 @@
 
 .demo-perspective-photo .mod-sun .x {
   position: relative;
-  border: 2px solid rgba(199, 37, 26, 0.8);
-  box-shadow: 0 0 100px rgba(199, 37, 26, 0.8);
+  border: 2px solid rgba(255, 79, 0, 0.9);
+  background-image: radial-gradient(transparent 70%, rgba(255, 79, 0, 0.9) 100%);
+  box-shadow: 0 0 100px rgba(255, 79, 0, 0.9);
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
@@ -99,8 +101,9 @@
 .demo-perspective-photo .mod-sun .x .y {
   top: 0;
   left: 0;
-  border: 2px solid rgba(199, 37, 26, 0.8);
-  box-shadow: 0 0 100px rgba(199, 37, 26, 0.8);
+  border: 2px solid rgba(255, 79, 0, 0.9);
+  background-image: radial-gradient(transparent 70%, rgba(255, 79, 0, 0.9) 100%);
+  box-shadow: 0 0 100px rgba(255, 79, 0, 0.9);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -110,8 +113,9 @@
 .demo-perspective-photo .mod-sun .x .z {
   top: 0;
   left: 0;
-  border: 2px solid rgba(199, 37, 26, 0.8);
-  box-shadow: 0 0 100px rgba(199, 37, 26, 0.8);
+  border: 2px solid rgba(255, 79, 0, 0.9);
+  background-image: radial-gradient(transparent 70%, rgba(255, 79, 0, 0.9) 100%);
+  box-shadow: 0 0 100px rgba(255, 79, 0, 0.9);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
@@ -121,8 +125,9 @@
 .demo-perspective-photo .mod-sun .x .x1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(199, 37, 26, 0.8);
-  box-shadow: 0 0 100px rgba(199, 37, 26, 0.8);
+  border: 2px solid rgba(255, 79, 0, 0.9);
+  background-image: radial-gradient(transparent 70%, rgba(255, 79, 0, 0.9) 100%);
+  box-shadow: 0 0 100px rgba(255, 79, 0, 0.9);
   -webkit-transform: translateZ(50px);
   -moz-transform: translateZ(50px);
   -ms-transform: translateZ(50px);
@@ -132,8 +137,9 @@
 .demo-perspective-photo .mod-sun .x .x2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(199, 37, 26, 0.8);
-  box-shadow: 0 0 100px rgba(199, 37, 26, 0.8);
+  border: 2px solid rgba(255, 79, 0, 0.9);
+  background-image: radial-gradient(transparent 70%, rgba(255, 79, 0, 0.9) 100%);
+  box-shadow: 0 0 100px rgba(255, 79, 0, 0.9);
   -webkit-transform: rotateX(180deg) translateZ(50px);
   -moz-transform: rotateX(180deg) translateZ(50px);
   -ms-transform: rotateX(180deg) translateZ(50px);
@@ -143,8 +149,9 @@
 .demo-perspective-photo .mod-sun .x .y1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(199, 37, 26, 0.8);
-  box-shadow: 0 0 100px rgba(199, 37, 26, 0.8);
+  border: 2px solid rgba(255, 79, 0, 0.9);
+  background-image: radial-gradient(transparent 70%, rgba(255, 79, 0, 0.9) 100%);
+  box-shadow: 0 0 100px rgba(255, 79, 0, 0.9);
   -webkit-transform: rotateX(90deg) translateZ(50px);
   -moz-transform: rotateX(90deg) translateZ(50px);
   -ms-transform: rotateX(90deg) translateZ(50px);
@@ -154,8 +161,9 @@
 .demo-perspective-photo .mod-sun .x .y2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(199, 37, 26, 0.8);
-  box-shadow: 0 0 100px rgba(199, 37, 26, 0.8);
+  border: 2px solid rgba(255, 79, 0, 0.9);
+  background-image: radial-gradient(transparent 70%, rgba(255, 79, 0, 0.9) 100%);
+  box-shadow: 0 0 100px rgba(255, 79, 0, 0.9);
   -webkit-transform: rotateX(270deg) translateZ(50px);
   -moz-transform: rotateX(270deg) translateZ(50px);
   -ms-transform: rotateX(270deg) translateZ(50px);
@@ -165,8 +173,9 @@
 .demo-perspective-photo .mod-sun .x .z1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(199, 37, 26, 0.8);
-  box-shadow: 0 0 100px rgba(199, 37, 26, 0.8);
+  border: 2px solid rgba(255, 79, 0, 0.9);
+  background-image: radial-gradient(transparent 70%, rgba(255, 79, 0, 0.9) 100%);
+  box-shadow: 0 0 100px rgba(255, 79, 0, 0.9);
   -webkit-transform: rotateY(90deg) translateZ(50px);
   -moz-transform: rotateY(90deg) translateZ(50px);
   -ms-transform: rotateY(90deg) translateZ(50px);
@@ -176,8 +185,9 @@
 .demo-perspective-photo .mod-sun .x .z2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(199, 37, 26, 0.8);
-  box-shadow: 0 0 100px rgba(199, 37, 26, 0.8);
+  border: 2px solid rgba(255, 79, 0, 0.9);
+  background-image: radial-gradient(transparent 70%, rgba(255, 79, 0, 0.9) 100%);
+  box-shadow: 0 0 100px rgba(255, 79, 0, 0.9);
   -webkit-transform: rotateY(270deg) translateZ(50px);
   -moz-transform: rotateY(270deg) translateZ(50px);
   -ms-transform: rotateY(270deg) translateZ(50px);
@@ -185,8 +195,8 @@
 }
 
 .demo-perspective-photo .mod-sun .x .xInner {
-  border: 2px solid rgba(199, 37, 26, 0.8);
-  box-shadow: 0 0 100px rgba(199, 37, 26, 0.8);
+  border: 2px solid rgba(255, 79, 0, 0.9);
+  box-shadow: 0 0 100px rgba(255, 79, 0, 0.9);
   width: 100%;
   top: 50%;
 }
@@ -194,8 +204,8 @@
 .demo-perspective-photo .mod-sun .x .yInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(199, 37, 26, 0.8);
-  box-shadow: 0 0 100px rgba(199, 37, 26, 0.8);
+  border: 2px solid rgba(255, 79, 0, 0.9);
+  box-shadow: 0 0 100px rgba(255, 79, 0, 0.9);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -205,8 +215,8 @@
 .demo-perspective-photo .mod-sun .x .zInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(199, 37, 26, 0.8);
-  box-shadow: 0 0 100px rgba(199, 37, 26, 0.8);
+  border: 2px solid rgba(255, 79, 0, 0.9);
+  box-shadow: 0 0 100px rgba(255, 79, 0, 0.9);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
@@ -227,16 +237,16 @@
 }
 
 .demo-perspective-photo .example1 {
-  margin: -42.5px 0 0 -42.5px;
-  -webkit-transform: rotateY(60deg) translateZ(950px);
-  transform: rotateY(60deg) translateZ(950px);
-  -webkit-animation: rotateSun 240s linear infinite 2s;
-  animation: rotateSun 240s linear infinite 2s;
+  margin: -15px 0 0 -15px;
+  -webkit-transform: rotateY(60deg) translateZ(300px);
+  transform: rotateY(60deg) translateZ(300px);
+  -webkit-animation: rotateSunSix 60s linear infinite 2s;
+  animation: rotateSunSix 60s linear infinite 2s;
 }
 
 .demo-perspective-photo .example1 .x, .demo-perspective-photo .example1 .y, .demo-perspective-photo .example1 .z {
-  width: 85px;
-  height: 85px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 }
 
@@ -252,14 +262,15 @@
 
 .demo-perspective-photo .example1 .x {
   position: relative;
-  border: 2px solid rgba(136, 155, 250, 0.8);
-  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
+  border: 2px solid rgba(141, 137, 231, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(141, 137, 231, 0.7) 100%);
+  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-animation: rotateItself 8s linear infinite 2s;
-  animation: rotateItself 8s linear infinite 2s;
+  -webkit-animation: rotateItself 30s linear infinite 2s;
+  animation: rotateItself 30s linear infinite 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   will-change: transform;
@@ -268,8 +279,9 @@
 .demo-perspective-photo .example1 .x .y {
   top: 0;
   left: 0;
-  border: 2px solid rgba(136, 155, 250, 0.8);
-  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
+  border: 2px solid rgba(141, 137, 231, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(141, 137, 231, 0.7) 100%);
+  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -279,8 +291,9 @@
 .demo-perspective-photo .example1 .x .z {
   top: 0;
   left: 0;
-  border: 2px solid rgba(136, 155, 250, 0.8);
-  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
+  border: 2px solid rgba(141, 137, 231, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(141, 137, 231, 0.7) 100%);
+  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
@@ -290,72 +303,78 @@
 .demo-perspective-photo .example1 .x .x1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(136, 155, 250, 0.8);
-  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
-  -webkit-transform: translateZ(21.25px);
-  -moz-transform: translateZ(21.25px);
-  -ms-transform: translateZ(21.25px);
-  transform: translateZ(21.25px);
+  border: 2px solid rgba(141, 137, 231, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(141, 137, 231, 0.7) 100%);
+  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
+  -webkit-transform: translateZ(7.5px);
+  -moz-transform: translateZ(7.5px);
+  -ms-transform: translateZ(7.5px);
+  transform: translateZ(7.5px);
 }
 
 .demo-perspective-photo .example1 .x .x2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(136, 155, 250, 0.8);
-  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
-  -webkit-transform: rotateX(180deg) translateZ(21.25px);
-  -moz-transform: rotateX(180deg) translateZ(21.25px);
-  -ms-transform: rotateX(180deg) translateZ(21.25px);
-  transform: rotateX(180deg) translateZ(21.25px);
+  border: 2px solid rgba(141, 137, 231, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(141, 137, 231, 0.7) 100%);
+  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
+  -webkit-transform: rotateX(180deg) translateZ(7.5px);
+  -moz-transform: rotateX(180deg) translateZ(7.5px);
+  -ms-transform: rotateX(180deg) translateZ(7.5px);
+  transform: rotateX(180deg) translateZ(7.5px);
 }
 
 .demo-perspective-photo .example1 .x .y1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(136, 155, 250, 0.8);
-  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
-  -webkit-transform: rotateX(90deg) translateZ(21.25px);
-  -moz-transform: rotateX(90deg) translateZ(21.25px);
-  -ms-transform: rotateX(90deg) translateZ(21.25px);
-  transform: rotateX(90deg) translateZ(21.25px);
+  border: 2px solid rgba(141, 137, 231, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(141, 137, 231, 0.7) 100%);
+  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
+  -webkit-transform: rotateX(90deg) translateZ(7.5px);
+  -moz-transform: rotateX(90deg) translateZ(7.5px);
+  -ms-transform: rotateX(90deg) translateZ(7.5px);
+  transform: rotateX(90deg) translateZ(7.5px);
 }
 
 .demo-perspective-photo .example1 .x .y2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(136, 155, 250, 0.8);
-  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
-  -webkit-transform: rotateX(270deg) translateZ(21.25px);
-  -moz-transform: rotateX(270deg) translateZ(21.25px);
-  -ms-transform: rotateX(270deg) translateZ(21.25px);
-  transform: rotateX(270deg) translateZ(21.25px);
+  border: 2px solid rgba(141, 137, 231, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(141, 137, 231, 0.7) 100%);
+  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
+  -webkit-transform: rotateX(270deg) translateZ(7.5px);
+  -moz-transform: rotateX(270deg) translateZ(7.5px);
+  -ms-transform: rotateX(270deg) translateZ(7.5px);
+  transform: rotateX(270deg) translateZ(7.5px);
 }
 
 .demo-perspective-photo .example1 .x .z1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(136, 155, 250, 0.8);
-  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
-  -webkit-transform: rotateY(90deg) translateZ(21.25px);
-  -moz-transform: rotateY(90deg) translateZ(21.25px);
-  -ms-transform: rotateY(90deg) translateZ(21.25px);
-  transform: rotateY(90deg) translateZ(21.25px);
+  border: 2px solid rgba(141, 137, 231, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(141, 137, 231, 0.7) 100%);
+  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
+  -webkit-transform: rotateY(90deg) translateZ(7.5px);
+  -moz-transform: rotateY(90deg) translateZ(7.5px);
+  -ms-transform: rotateY(90deg) translateZ(7.5px);
+  transform: rotateY(90deg) translateZ(7.5px);
 }
 
 .demo-perspective-photo .example1 .x .z2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(136, 155, 250, 0.8);
-  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
-  -webkit-transform: rotateY(270deg) translateZ(21.25px);
-  -moz-transform: rotateY(270deg) translateZ(21.25px);
-  -ms-transform: rotateY(270deg) translateZ(21.25px);
-  transform: rotateY(270deg) translateZ(21.25px);
+  border: 2px solid rgba(141, 137, 231, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(141, 137, 231, 0.7) 100%);
+  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
+  -webkit-transform: rotateY(270deg) translateZ(7.5px);
+  -moz-transform: rotateY(270deg) translateZ(7.5px);
+  -ms-transform: rotateY(270deg) translateZ(7.5px);
+  transform: rotateY(270deg) translateZ(7.5px);
 }
 
 .demo-perspective-photo .example1 .x .xInner {
-  border: 2px solid rgba(136, 155, 250, 0.8);
-  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
+  border: 2px solid rgba(141, 137, 231, 0.7);
+  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
   width: 100%;
   top: 50%;
 }
@@ -363,8 +382,8 @@
 .demo-perspective-photo .example1 .x .yInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(136, 155, 250, 0.8);
-  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
+  border: 2px solid rgba(141, 137, 231, 0.7);
+  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -374,8 +393,8 @@
 .demo-perspective-photo .example1 .x .zInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(136, 155, 250, 0.8);
-  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
+  border: 2px solid rgba(141, 137, 231, 0.7);
+  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
@@ -383,16 +402,16 @@
 }
 
 .demo-perspective-photo .example2 {
-  margin: -35px 0 0 -35px;
-  -webkit-transform: rotateY(60deg) translateZ(800px);
-  transform: rotateY(60deg) translateZ(800px);
-  -webkit-animation: rotateSunTwo 180s linear infinite 2s;
-  animation: rotateSunTwo 180s linear infinite 2s;
+  margin: -22.5px 0 0 -22.5px;
+  -webkit-transform: rotateY(60deg) translateZ(400px);
+  transform: rotateY(60deg) translateZ(400px);
+  -webkit-animation: rotateSunFive 90s linear infinite 2s;
+  animation: rotateSunFive 90s linear infinite 2s;
 }
 
 .demo-perspective-photo .example2 .x, .demo-perspective-photo .example2 .y, .demo-perspective-photo .example2 .z {
-  width: 70px;
-  height: 70px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
 }
 
@@ -408,14 +427,15 @@
 
 .demo-perspective-photo .example2 .x {
   position: relative;
-  border: 2px solid rgba(67, 197, 239, 0.6);
-  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
+  border: 2px solid rgba(228, 128, 24, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(228, 128, 24, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(228, 128, 24, 0.8);
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-animation: rotateItself 12s linear infinite 2s;
-  animation: rotateItself 12s linear infinite 2s;
+  -webkit-animation: rotateItself 15s linear infinite 2s;
+  animation: rotateItself 15s linear infinite 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   will-change: transform;
@@ -424,8 +444,9 @@
 .demo-perspective-photo .example2 .x .y {
   top: 0;
   left: 0;
-  border: 2px solid rgba(67, 197, 239, 0.6);
-  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
+  border: 2px solid rgba(228, 128, 24, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(228, 128, 24, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(228, 128, 24, 0.8);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -435,8 +456,9 @@
 .demo-perspective-photo .example2 .x .z {
   top: 0;
   left: 0;
-  border: 2px solid rgba(67, 197, 239, 0.6);
-  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
+  border: 2px solid rgba(228, 128, 24, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(228, 128, 24, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(228, 128, 24, 0.8);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
@@ -446,72 +468,78 @@
 .demo-perspective-photo .example2 .x .x1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(67, 197, 239, 0.6);
-  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
-  -webkit-transform: translateZ(17.5px);
-  -moz-transform: translateZ(17.5px);
-  -ms-transform: translateZ(17.5px);
-  transform: translateZ(17.5px);
+  border: 2px solid rgba(228, 128, 24, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(228, 128, 24, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(228, 128, 24, 0.8);
+  -webkit-transform: translateZ(11.25px);
+  -moz-transform: translateZ(11.25px);
+  -ms-transform: translateZ(11.25px);
+  transform: translateZ(11.25px);
 }
 
 .demo-perspective-photo .example2 .x .x2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(67, 197, 239, 0.6);
-  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
-  -webkit-transform: rotateX(180deg) translateZ(17.5px);
-  -moz-transform: rotateX(180deg) translateZ(17.5px);
-  -ms-transform: rotateX(180deg) translateZ(17.5px);
-  transform: rotateX(180deg) translateZ(17.5px);
+  border: 2px solid rgba(228, 128, 24, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(228, 128, 24, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(228, 128, 24, 0.8);
+  -webkit-transform: rotateX(180deg) translateZ(11.25px);
+  -moz-transform: rotateX(180deg) translateZ(11.25px);
+  -ms-transform: rotateX(180deg) translateZ(11.25px);
+  transform: rotateX(180deg) translateZ(11.25px);
 }
 
 .demo-perspective-photo .example2 .x .y1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(67, 197, 239, 0.6);
-  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
-  -webkit-transform: rotateX(90deg) translateZ(17.5px);
-  -moz-transform: rotateX(90deg) translateZ(17.5px);
-  -ms-transform: rotateX(90deg) translateZ(17.5px);
-  transform: rotateX(90deg) translateZ(17.5px);
+  border: 2px solid rgba(228, 128, 24, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(228, 128, 24, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(228, 128, 24, 0.8);
+  -webkit-transform: rotateX(90deg) translateZ(11.25px);
+  -moz-transform: rotateX(90deg) translateZ(11.25px);
+  -ms-transform: rotateX(90deg) translateZ(11.25px);
+  transform: rotateX(90deg) translateZ(11.25px);
 }
 
 .demo-perspective-photo .example2 .x .y2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(67, 197, 239, 0.6);
-  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
-  -webkit-transform: rotateX(270deg) translateZ(17.5px);
-  -moz-transform: rotateX(270deg) translateZ(17.5px);
-  -ms-transform: rotateX(270deg) translateZ(17.5px);
-  transform: rotateX(270deg) translateZ(17.5px);
+  border: 2px solid rgba(228, 128, 24, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(228, 128, 24, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(228, 128, 24, 0.8);
+  -webkit-transform: rotateX(270deg) translateZ(11.25px);
+  -moz-transform: rotateX(270deg) translateZ(11.25px);
+  -ms-transform: rotateX(270deg) translateZ(11.25px);
+  transform: rotateX(270deg) translateZ(11.25px);
 }
 
 .demo-perspective-photo .example2 .x .z1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(67, 197, 239, 0.6);
-  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
-  -webkit-transform: rotateY(90deg) translateZ(17.5px);
-  -moz-transform: rotateY(90deg) translateZ(17.5px);
-  -ms-transform: rotateY(90deg) translateZ(17.5px);
-  transform: rotateY(90deg) translateZ(17.5px);
+  border: 2px solid rgba(228, 128, 24, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(228, 128, 24, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(228, 128, 24, 0.8);
+  -webkit-transform: rotateY(90deg) translateZ(11.25px);
+  -moz-transform: rotateY(90deg) translateZ(11.25px);
+  -ms-transform: rotateY(90deg) translateZ(11.25px);
+  transform: rotateY(90deg) translateZ(11.25px);
 }
 
 .demo-perspective-photo .example2 .x .z2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(67, 197, 239, 0.6);
-  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
-  -webkit-transform: rotateY(270deg) translateZ(17.5px);
-  -moz-transform: rotateY(270deg) translateZ(17.5px);
-  -ms-transform: rotateY(270deg) translateZ(17.5px);
-  transform: rotateY(270deg) translateZ(17.5px);
+  border: 2px solid rgba(228, 128, 24, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(228, 128, 24, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(228, 128, 24, 0.8);
+  -webkit-transform: rotateY(270deg) translateZ(11.25px);
+  -moz-transform: rotateY(270deg) translateZ(11.25px);
+  -ms-transform: rotateY(270deg) translateZ(11.25px);
+  transform: rotateY(270deg) translateZ(11.25px);
 }
 
 .demo-perspective-photo .example2 .x .xInner {
-  border: 2px solid rgba(67, 197, 239, 0.6);
-  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
+  border: 2px solid rgba(228, 128, 24, 0.8);
+  box-shadow: 0 0 25px rgba(228, 128, 24, 0.8);
   width: 100%;
   top: 50%;
 }
@@ -519,8 +547,8 @@
 .demo-perspective-photo .example2 .x .yInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(67, 197, 239, 0.6);
-  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
+  border: 2px solid rgba(228, 128, 24, 0.8);
+  box-shadow: 0 0 25px rgba(228, 128, 24, 0.8);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -530,8 +558,8 @@
 .demo-perspective-photo .example2 .x .zInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(67, 197, 239, 0.6);
-  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
+  border: 2px solid rgba(228, 128, 24, 0.8);
+  box-shadow: 0 0 25px rgba(228, 128, 24, 0.8);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
@@ -539,16 +567,16 @@
 }
 
 .demo-perspective-photo .example3 {
-  margin: -55px 0 0 -55px;
-  -webkit-transform: rotateY(60deg) translateZ(650px);
-  transform: rotateY(60deg) translateZ(650px);
-  -webkit-animation: rotateSunThree 150s linear infinite 2s;
-  animation: rotateSunThree 150s linear infinite 2s;
+  margin: -27.5px 0 0 -27.5px;
+  -webkit-transform: rotateY(60deg) translateZ(520px);
+  transform: rotateY(60deg) translateZ(520px);
+  -webkit-animation: rotateSunFour 120s linear infinite 2s;
+  animation: rotateSunFour 120s linear infinite 2s;
 }
 
 .demo-perspective-photo .example3 .x, .demo-perspective-photo .example3 .y, .demo-perspective-photo .example3 .z {
-  width: 110px;
-  height: 110px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
 }
 
@@ -564,14 +592,15 @@
 
 .demo-perspective-photo .example3 .x {
   position: relative;
-  border: 2px solid rgba(245, 192, 86, 0.7);
-  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
+  border: 2px solid rgba(31, 107, 234, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(31, 107, 234, 0.8) 100%);
+  box-shadow: 0 0 30px rgba(31, 107, 234, 0.8);
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-animation: rotateItself 40s linear infinite 2s;
-  animation: rotateItself 40s linear infinite 2s;
+  -webkit-animation: rotateItself 30s linear infinite 2s;
+  animation: rotateItself 30s linear infinite 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   will-change: transform;
@@ -580,8 +609,9 @@
 .demo-perspective-photo .example3 .x .y {
   top: 0;
   left: 0;
-  border: 2px solid rgba(245, 192, 86, 0.7);
-  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
+  border: 2px solid rgba(31, 107, 234, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(31, 107, 234, 0.8) 100%);
+  box-shadow: 0 0 30px rgba(31, 107, 234, 0.8);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -591,8 +621,9 @@
 .demo-perspective-photo .example3 .x .z {
   top: 0;
   left: 0;
-  border: 2px solid rgba(245, 192, 86, 0.7);
-  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
+  border: 2px solid rgba(31, 107, 234, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(31, 107, 234, 0.8) 100%);
+  box-shadow: 0 0 30px rgba(31, 107, 234, 0.8);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
@@ -602,72 +633,78 @@
 .demo-perspective-photo .example3 .x .x1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(245, 192, 86, 0.7);
-  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
-  -webkit-transform: translateZ(27.5px);
-  -moz-transform: translateZ(27.5px);
-  -ms-transform: translateZ(27.5px);
-  transform: translateZ(27.5px);
+  border: 2px solid rgba(31, 107, 234, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(31, 107, 234, 0.8) 100%);
+  box-shadow: 0 0 30px rgba(31, 107, 234, 0.8);
+  -webkit-transform: translateZ(13.75px);
+  -moz-transform: translateZ(13.75px);
+  -ms-transform: translateZ(13.75px);
+  transform: translateZ(13.75px);
 }
 
 .demo-perspective-photo .example3 .x .x2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(245, 192, 86, 0.7);
-  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
-  -webkit-transform: rotateX(180deg) translateZ(27.5px);
-  -moz-transform: rotateX(180deg) translateZ(27.5px);
-  -ms-transform: rotateX(180deg) translateZ(27.5px);
-  transform: rotateX(180deg) translateZ(27.5px);
+  border: 2px solid rgba(31, 107, 234, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(31, 107, 234, 0.8) 100%);
+  box-shadow: 0 0 30px rgba(31, 107, 234, 0.8);
+  -webkit-transform: rotateX(180deg) translateZ(13.75px);
+  -moz-transform: rotateX(180deg) translateZ(13.75px);
+  -ms-transform: rotateX(180deg) translateZ(13.75px);
+  transform: rotateX(180deg) translateZ(13.75px);
 }
 
 .demo-perspective-photo .example3 .x .y1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(245, 192, 86, 0.7);
-  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
-  -webkit-transform: rotateX(90deg) translateZ(27.5px);
-  -moz-transform: rotateX(90deg) translateZ(27.5px);
-  -ms-transform: rotateX(90deg) translateZ(27.5px);
-  transform: rotateX(90deg) translateZ(27.5px);
+  border: 2px solid rgba(31, 107, 234, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(31, 107, 234, 0.8) 100%);
+  box-shadow: 0 0 30px rgba(31, 107, 234, 0.8);
+  -webkit-transform: rotateX(90deg) translateZ(13.75px);
+  -moz-transform: rotateX(90deg) translateZ(13.75px);
+  -ms-transform: rotateX(90deg) translateZ(13.75px);
+  transform: rotateX(90deg) translateZ(13.75px);
 }
 
 .demo-perspective-photo .example3 .x .y2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(245, 192, 86, 0.7);
-  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
-  -webkit-transform: rotateX(270deg) translateZ(27.5px);
-  -moz-transform: rotateX(270deg) translateZ(27.5px);
-  -ms-transform: rotateX(270deg) translateZ(27.5px);
-  transform: rotateX(270deg) translateZ(27.5px);
+  border: 2px solid rgba(31, 107, 234, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(31, 107, 234, 0.8) 100%);
+  box-shadow: 0 0 30px rgba(31, 107, 234, 0.8);
+  -webkit-transform: rotateX(270deg) translateZ(13.75px);
+  -moz-transform: rotateX(270deg) translateZ(13.75px);
+  -ms-transform: rotateX(270deg) translateZ(13.75px);
+  transform: rotateX(270deg) translateZ(13.75px);
 }
 
 .demo-perspective-photo .example3 .x .z1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(245, 192, 86, 0.7);
-  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
-  -webkit-transform: rotateY(90deg) translateZ(27.5px);
-  -moz-transform: rotateY(90deg) translateZ(27.5px);
-  -ms-transform: rotateY(90deg) translateZ(27.5px);
-  transform: rotateY(90deg) translateZ(27.5px);
+  border: 2px solid rgba(31, 107, 234, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(31, 107, 234, 0.8) 100%);
+  box-shadow: 0 0 30px rgba(31, 107, 234, 0.8);
+  -webkit-transform: rotateY(90deg) translateZ(13.75px);
+  -moz-transform: rotateY(90deg) translateZ(13.75px);
+  -ms-transform: rotateY(90deg) translateZ(13.75px);
+  transform: rotateY(90deg) translateZ(13.75px);
 }
 
 .demo-perspective-photo .example3 .x .z2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(245, 192, 86, 0.7);
-  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
-  -webkit-transform: rotateY(270deg) translateZ(27.5px);
-  -moz-transform: rotateY(270deg) translateZ(27.5px);
-  -ms-transform: rotateY(270deg) translateZ(27.5px);
-  transform: rotateY(270deg) translateZ(27.5px);
+  border: 2px solid rgba(31, 107, 234, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(31, 107, 234, 0.8) 100%);
+  box-shadow: 0 0 30px rgba(31, 107, 234, 0.8);
+  -webkit-transform: rotateY(270deg) translateZ(13.75px);
+  -moz-transform: rotateY(270deg) translateZ(13.75px);
+  -ms-transform: rotateY(270deg) translateZ(13.75px);
+  transform: rotateY(270deg) translateZ(13.75px);
 }
 
 .demo-perspective-photo .example3 .x .xInner {
-  border: 2px solid rgba(245, 192, 86, 0.7);
-  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
+  border: 2px solid rgba(31, 107, 234, 0.8);
+  box-shadow: 0 0 30px rgba(31, 107, 234, 0.8);
   width: 100%;
   top: 50%;
 }
@@ -675,8 +712,8 @@
 .demo-perspective-photo .example3 .x .yInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(245, 192, 86, 0.7);
-  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
+  border: 2px solid rgba(31, 107, 234, 0.8);
+  box-shadow: 0 0 30px rgba(31, 107, 234, 0.8);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -686,8 +723,8 @@
 .demo-perspective-photo .example3 .x .zInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(245, 192, 86, 0.7);
-  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
+  border: 2px solid rgba(31, 107, 234, 0.8);
+  box-shadow: 0 0 30px rgba(31, 107, 234, 0.8);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
@@ -695,16 +732,16 @@
 }
 
 .demo-perspective-photo .example4 {
-  margin: -27.5px 0 0 -27.5px;
-  -webkit-transform: rotateY(60deg) translateZ(520px);
-  transform: rotateY(60deg) translateZ(520px);
-  -webkit-animation: rotateSunFour 120s linear infinite 2s;
-  animation: rotateSunFour 120s linear infinite 2s;
+  margin: -55px 0 0 -55px;
+  -webkit-transform: rotateY(60deg) translateZ(650px);
+  transform: rotateY(60deg) translateZ(650px);
+  -webkit-animation: rotateSunThree 150s linear infinite 2s;
+  animation: rotateSunThree 150s linear infinite 2s;
 }
 
 .demo-perspective-photo .example4 .x, .demo-perspective-photo .example4 .y, .demo-perspective-photo .example4 .z {
-  width: 55px;
-  height: 55px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
 }
 
@@ -720,14 +757,15 @@
 
 .demo-perspective-photo .example4 .x {
   position: relative;
-  border: 2px solid rgba(6, 76, 193, 0.8);
-  box-shadow: 0 0 30px rgba(6, 76, 193, 0.8);
+  border: 2px solid rgba(245, 192, 86, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(245, 192, 86, 0.7) 100%);
+  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-animation: rotateItself 30s linear infinite 2s;
-  animation: rotateItself 30s linear infinite 2s;
+  -webkit-animation: rotateItself 40s linear infinite 2s;
+  animation: rotateItself 40s linear infinite 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   will-change: transform;
@@ -736,8 +774,9 @@
 .demo-perspective-photo .example4 .x .y {
   top: 0;
   left: 0;
-  border: 2px solid rgba(6, 76, 193, 0.8);
-  box-shadow: 0 0 30px rgba(6, 76, 193, 0.8);
+  border: 2px solid rgba(245, 192, 86, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(245, 192, 86, 0.7) 100%);
+  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -747,8 +786,9 @@
 .demo-perspective-photo .example4 .x .z {
   top: 0;
   left: 0;
-  border: 2px solid rgba(6, 76, 193, 0.8);
-  box-shadow: 0 0 30px rgba(6, 76, 193, 0.8);
+  border: 2px solid rgba(245, 192, 86, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(245, 192, 86, 0.7) 100%);
+  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
@@ -758,72 +798,78 @@
 .demo-perspective-photo .example4 .x .x1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(6, 76, 193, 0.8);
-  box-shadow: 0 0 30px rgba(6, 76, 193, 0.8);
-  -webkit-transform: translateZ(13.75px);
-  -moz-transform: translateZ(13.75px);
-  -ms-transform: translateZ(13.75px);
-  transform: translateZ(13.75px);
+  border: 2px solid rgba(245, 192, 86, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(245, 192, 86, 0.7) 100%);
+  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
+  -webkit-transform: translateZ(27.5px);
+  -moz-transform: translateZ(27.5px);
+  -ms-transform: translateZ(27.5px);
+  transform: translateZ(27.5px);
 }
 
 .demo-perspective-photo .example4 .x .x2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(6, 76, 193, 0.8);
-  box-shadow: 0 0 30px rgba(6, 76, 193, 0.8);
-  -webkit-transform: rotateX(180deg) translateZ(13.75px);
-  -moz-transform: rotateX(180deg) translateZ(13.75px);
-  -ms-transform: rotateX(180deg) translateZ(13.75px);
-  transform: rotateX(180deg) translateZ(13.75px);
+  border: 2px solid rgba(245, 192, 86, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(245, 192, 86, 0.7) 100%);
+  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
+  -webkit-transform: rotateX(180deg) translateZ(27.5px);
+  -moz-transform: rotateX(180deg) translateZ(27.5px);
+  -ms-transform: rotateX(180deg) translateZ(27.5px);
+  transform: rotateX(180deg) translateZ(27.5px);
 }
 
 .demo-perspective-photo .example4 .x .y1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(6, 76, 193, 0.8);
-  box-shadow: 0 0 30px rgba(6, 76, 193, 0.8);
-  -webkit-transform: rotateX(90deg) translateZ(13.75px);
-  -moz-transform: rotateX(90deg) translateZ(13.75px);
-  -ms-transform: rotateX(90deg) translateZ(13.75px);
-  transform: rotateX(90deg) translateZ(13.75px);
+  border: 2px solid rgba(245, 192, 86, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(245, 192, 86, 0.7) 100%);
+  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
+  -webkit-transform: rotateX(90deg) translateZ(27.5px);
+  -moz-transform: rotateX(90deg) translateZ(27.5px);
+  -ms-transform: rotateX(90deg) translateZ(27.5px);
+  transform: rotateX(90deg) translateZ(27.5px);
 }
 
 .demo-perspective-photo .example4 .x .y2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(6, 76, 193, 0.8);
-  box-shadow: 0 0 30px rgba(6, 76, 193, 0.8);
-  -webkit-transform: rotateX(270deg) translateZ(13.75px);
-  -moz-transform: rotateX(270deg) translateZ(13.75px);
-  -ms-transform: rotateX(270deg) translateZ(13.75px);
-  transform: rotateX(270deg) translateZ(13.75px);
+  border: 2px solid rgba(245, 192, 86, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(245, 192, 86, 0.7) 100%);
+  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
+  -webkit-transform: rotateX(270deg) translateZ(27.5px);
+  -moz-transform: rotateX(270deg) translateZ(27.5px);
+  -ms-transform: rotateX(270deg) translateZ(27.5px);
+  transform: rotateX(270deg) translateZ(27.5px);
 }
 
 .demo-perspective-photo .example4 .x .z1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(6, 76, 193, 0.8);
-  box-shadow: 0 0 30px rgba(6, 76, 193, 0.8);
-  -webkit-transform: rotateY(90deg) translateZ(13.75px);
-  -moz-transform: rotateY(90deg) translateZ(13.75px);
-  -ms-transform: rotateY(90deg) translateZ(13.75px);
-  transform: rotateY(90deg) translateZ(13.75px);
+  border: 2px solid rgba(245, 192, 86, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(245, 192, 86, 0.7) 100%);
+  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
+  -webkit-transform: rotateY(90deg) translateZ(27.5px);
+  -moz-transform: rotateY(90deg) translateZ(27.5px);
+  -ms-transform: rotateY(90deg) translateZ(27.5px);
+  transform: rotateY(90deg) translateZ(27.5px);
 }
 
 .demo-perspective-photo .example4 .x .z2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(6, 76, 193, 0.8);
-  box-shadow: 0 0 30px rgba(6, 76, 193, 0.8);
-  -webkit-transform: rotateY(270deg) translateZ(13.75px);
-  -moz-transform: rotateY(270deg) translateZ(13.75px);
-  -ms-transform: rotateY(270deg) translateZ(13.75px);
-  transform: rotateY(270deg) translateZ(13.75px);
+  border: 2px solid rgba(245, 192, 86, 0.7);
+  background-image: radial-gradient(transparent 70%, rgba(245, 192, 86, 0.7) 100%);
+  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
+  -webkit-transform: rotateY(270deg) translateZ(27.5px);
+  -moz-transform: rotateY(270deg) translateZ(27.5px);
+  -ms-transform: rotateY(270deg) translateZ(27.5px);
+  transform: rotateY(270deg) translateZ(27.5px);
 }
 
 .demo-perspective-photo .example4 .x .xInner {
-  border: 2px solid rgba(6, 76, 193, 0.8);
-  box-shadow: 0 0 30px rgba(6, 76, 193, 0.8);
+  border: 2px solid rgba(245, 192, 86, 0.7);
+  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
   width: 100%;
   top: 50%;
 }
@@ -831,8 +877,8 @@
 .demo-perspective-photo .example4 .x .yInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(6, 76, 193, 0.8);
-  box-shadow: 0 0 30px rgba(6, 76, 193, 0.8);
+  border: 2px solid rgba(245, 192, 86, 0.7);
+  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -842,8 +888,8 @@
 .demo-perspective-photo .example4 .x .zInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(6, 76, 193, 0.8);
-  box-shadow: 0 0 30px rgba(6, 76, 193, 0.8);
+  border: 2px solid rgba(245, 192, 86, 0.7);
+  box-shadow: 0 0 20px rgba(245, 192, 86, 0.7);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
@@ -851,16 +897,16 @@
 }
 
 .demo-perspective-photo .example5 {
-  margin: -22.5px 0 0 -22.5px;
-  -webkit-transform: rotateY(60deg) translateZ(400px);
-  transform: rotateY(60deg) translateZ(400px);
-  -webkit-animation: rotateSunFive 90s linear infinite 2s;
-  animation: rotateSunFive 90s linear infinite 2s;
+  margin: -35px 0 0 -35px;
+  -webkit-transform: rotateY(60deg) translateZ(800px);
+  transform: rotateY(60deg) translateZ(800px);
+  -webkit-animation: rotateSunTwo 180s linear infinite 2s;
+  animation: rotateSunTwo 180s linear infinite 2s;
 }
 
 .demo-perspective-photo .example5 .x, .demo-perspective-photo .example5 .y, .demo-perspective-photo .example5 .z {
-  width: 45px;
-  height: 45px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
 }
 
@@ -876,14 +922,15 @@
 
 .demo-perspective-photo .example5 .x {
   position: relative;
-  border: 2px solid rgba(249, 109, 46, 0.8);
-  box-shadow: 0 0 25px rgba(249, 109, 46, 0.8);
+  border: 2px solid rgba(67, 197, 239, 0.6);
+  background-image: radial-gradient(transparent 70%, rgba(67, 197, 239, 0.6) 100%);
+  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-animation: rotateItself 15s linear infinite 2s;
-  animation: rotateItself 15s linear infinite 2s;
+  -webkit-animation: rotateItself 12s linear infinite 2s;
+  animation: rotateItself 12s linear infinite 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   will-change: transform;
@@ -892,8 +939,9 @@
 .demo-perspective-photo .example5 .x .y {
   top: 0;
   left: 0;
-  border: 2px solid rgba(249, 109, 46, 0.8);
-  box-shadow: 0 0 25px rgba(249, 109, 46, 0.8);
+  border: 2px solid rgba(67, 197, 239, 0.6);
+  background-image: radial-gradient(transparent 70%, rgba(67, 197, 239, 0.6) 100%);
+  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -903,8 +951,9 @@
 .demo-perspective-photo .example5 .x .z {
   top: 0;
   left: 0;
-  border: 2px solid rgba(249, 109, 46, 0.8);
-  box-shadow: 0 0 25px rgba(249, 109, 46, 0.8);
+  border: 2px solid rgba(67, 197, 239, 0.6);
+  background-image: radial-gradient(transparent 70%, rgba(67, 197, 239, 0.6) 100%);
+  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
@@ -914,72 +963,78 @@
 .demo-perspective-photo .example5 .x .x1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(249, 109, 46, 0.8);
-  box-shadow: 0 0 25px rgba(249, 109, 46, 0.8);
-  -webkit-transform: translateZ(11.25px);
-  -moz-transform: translateZ(11.25px);
-  -ms-transform: translateZ(11.25px);
-  transform: translateZ(11.25px);
+  border: 2px solid rgba(67, 197, 239, 0.6);
+  background-image: radial-gradient(transparent 70%, rgba(67, 197, 239, 0.6) 100%);
+  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
+  -webkit-transform: translateZ(17.5px);
+  -moz-transform: translateZ(17.5px);
+  -ms-transform: translateZ(17.5px);
+  transform: translateZ(17.5px);
 }
 
 .demo-perspective-photo .example5 .x .x2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(249, 109, 46, 0.8);
-  box-shadow: 0 0 25px rgba(249, 109, 46, 0.8);
-  -webkit-transform: rotateX(180deg) translateZ(11.25px);
-  -moz-transform: rotateX(180deg) translateZ(11.25px);
-  -ms-transform: rotateX(180deg) translateZ(11.25px);
-  transform: rotateX(180deg) translateZ(11.25px);
+  border: 2px solid rgba(67, 197, 239, 0.6);
+  background-image: radial-gradient(transparent 70%, rgba(67, 197, 239, 0.6) 100%);
+  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
+  -webkit-transform: rotateX(180deg) translateZ(17.5px);
+  -moz-transform: rotateX(180deg) translateZ(17.5px);
+  -ms-transform: rotateX(180deg) translateZ(17.5px);
+  transform: rotateX(180deg) translateZ(17.5px);
 }
 
 .demo-perspective-photo .example5 .x .y1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(249, 109, 46, 0.8);
-  box-shadow: 0 0 25px rgba(249, 109, 46, 0.8);
-  -webkit-transform: rotateX(90deg) translateZ(11.25px);
-  -moz-transform: rotateX(90deg) translateZ(11.25px);
-  -ms-transform: rotateX(90deg) translateZ(11.25px);
-  transform: rotateX(90deg) translateZ(11.25px);
+  border: 2px solid rgba(67, 197, 239, 0.6);
+  background-image: radial-gradient(transparent 70%, rgba(67, 197, 239, 0.6) 100%);
+  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
+  -webkit-transform: rotateX(90deg) translateZ(17.5px);
+  -moz-transform: rotateX(90deg) translateZ(17.5px);
+  -ms-transform: rotateX(90deg) translateZ(17.5px);
+  transform: rotateX(90deg) translateZ(17.5px);
 }
 
 .demo-perspective-photo .example5 .x .y2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(249, 109, 46, 0.8);
-  box-shadow: 0 0 25px rgba(249, 109, 46, 0.8);
-  -webkit-transform: rotateX(270deg) translateZ(11.25px);
-  -moz-transform: rotateX(270deg) translateZ(11.25px);
-  -ms-transform: rotateX(270deg) translateZ(11.25px);
-  transform: rotateX(270deg) translateZ(11.25px);
+  border: 2px solid rgba(67, 197, 239, 0.6);
+  background-image: radial-gradient(transparent 70%, rgba(67, 197, 239, 0.6) 100%);
+  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
+  -webkit-transform: rotateX(270deg) translateZ(17.5px);
+  -moz-transform: rotateX(270deg) translateZ(17.5px);
+  -ms-transform: rotateX(270deg) translateZ(17.5px);
+  transform: rotateX(270deg) translateZ(17.5px);
 }
 
 .demo-perspective-photo .example5 .x .z1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(249, 109, 46, 0.8);
-  box-shadow: 0 0 25px rgba(249, 109, 46, 0.8);
-  -webkit-transform: rotateY(90deg) translateZ(11.25px);
-  -moz-transform: rotateY(90deg) translateZ(11.25px);
-  -ms-transform: rotateY(90deg) translateZ(11.25px);
-  transform: rotateY(90deg) translateZ(11.25px);
+  border: 2px solid rgba(67, 197, 239, 0.6);
+  background-image: radial-gradient(transparent 70%, rgba(67, 197, 239, 0.6) 100%);
+  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
+  -webkit-transform: rotateY(90deg) translateZ(17.5px);
+  -moz-transform: rotateY(90deg) translateZ(17.5px);
+  -ms-transform: rotateY(90deg) translateZ(17.5px);
+  transform: rotateY(90deg) translateZ(17.5px);
 }
 
 .demo-perspective-photo .example5 .x .z2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(249, 109, 46, 0.8);
-  box-shadow: 0 0 25px rgba(249, 109, 46, 0.8);
-  -webkit-transform: rotateY(270deg) translateZ(11.25px);
-  -moz-transform: rotateY(270deg) translateZ(11.25px);
-  -ms-transform: rotateY(270deg) translateZ(11.25px);
-  transform: rotateY(270deg) translateZ(11.25px);
+  border: 2px solid rgba(67, 197, 239, 0.6);
+  background-image: radial-gradient(transparent 70%, rgba(67, 197, 239, 0.6) 100%);
+  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
+  -webkit-transform: rotateY(270deg) translateZ(17.5px);
+  -moz-transform: rotateY(270deg) translateZ(17.5px);
+  -ms-transform: rotateY(270deg) translateZ(17.5px);
+  transform: rotateY(270deg) translateZ(17.5px);
 }
 
 .demo-perspective-photo .example5 .x .xInner {
-  border: 2px solid rgba(249, 109, 46, 0.8);
-  box-shadow: 0 0 25px rgba(249, 109, 46, 0.8);
+  border: 2px solid rgba(67, 197, 239, 0.6);
+  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
   width: 100%;
   top: 50%;
 }
@@ -987,8 +1042,8 @@
 .demo-perspective-photo .example5 .x .yInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(249, 109, 46, 0.8);
-  box-shadow: 0 0 25px rgba(249, 109, 46, 0.8);
+  border: 2px solid rgba(67, 197, 239, 0.6);
+  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -998,8 +1053,8 @@
 .demo-perspective-photo .example5 .x .zInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(249, 109, 46, 0.8);
-  box-shadow: 0 0 25px rgba(249, 109, 46, 0.8);
+  border: 2px solid rgba(67, 197, 239, 0.6);
+  box-shadow: 0 0 15px rgba(67, 197, 239, 0.6);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
@@ -1007,16 +1062,16 @@
 }
 
 .demo-perspective-photo .example6 {
-  margin: -15px 0 0 -15px;
-  -webkit-transform: rotateY(60deg) translateZ(300px);
-  transform: rotateY(60deg) translateZ(300px);
-  -webkit-animation: rotateSunSix 60s linear infinite 2s;
-  animation: rotateSunSix 60s linear infinite 2s;
+  margin: -42.5px 0 0 -42.5px;
+  -webkit-transform: rotateY(60deg) translateZ(950px);
+  transform: rotateY(60deg) translateZ(950px);
+  -webkit-animation: rotateSun 240s linear infinite 2s;
+  animation: rotateSun 240s linear infinite 2s;
 }
 
 .demo-perspective-photo .example6 .x, .demo-perspective-photo .example6 .y, .demo-perspective-photo .example6 .z {
-  width: 30px;
-  height: 30px;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
 }
 
@@ -1032,14 +1087,15 @@
 
 .demo-perspective-photo .example6 .x {
   position: relative;
-  border: 2px solid rgba(141, 137, 231, 0.7);
-  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
+  border: 2px solid rgba(136, 155, 250, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(136, 155, 250, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-animation: rotateItself 30s linear infinite 2s;
-  animation: rotateItself 30s linear infinite 2s;
+  -webkit-animation: rotateItself 8s linear infinite 2s;
+  animation: rotateItself 8s linear infinite 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   will-change: transform;
@@ -1048,8 +1104,9 @@
 .demo-perspective-photo .example6 .x .y {
   top: 0;
   left: 0;
-  border: 2px solid rgba(141, 137, 231, 0.7);
-  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
+  border: 2px solid rgba(136, 155, 250, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(136, 155, 250, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -1059,8 +1116,9 @@
 .demo-perspective-photo .example6 .x .z {
   top: 0;
   left: 0;
-  border: 2px solid rgba(141, 137, 231, 0.7);
-  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
+  border: 2px solid rgba(136, 155, 250, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(136, 155, 250, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
@@ -1070,72 +1128,78 @@
 .demo-perspective-photo .example6 .x .x1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(141, 137, 231, 0.7);
-  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
-  -webkit-transform: translateZ(7.5px);
-  -moz-transform: translateZ(7.5px);
-  -ms-transform: translateZ(7.5px);
-  transform: translateZ(7.5px);
+  border: 2px solid rgba(136, 155, 250, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(136, 155, 250, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
+  -webkit-transform: translateZ(21.25px);
+  -moz-transform: translateZ(21.25px);
+  -ms-transform: translateZ(21.25px);
+  transform: translateZ(21.25px);
 }
 
 .demo-perspective-photo .example6 .x .x2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(141, 137, 231, 0.7);
-  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
-  -webkit-transform: rotateX(180deg) translateZ(7.5px);
-  -moz-transform: rotateX(180deg) translateZ(7.5px);
-  -ms-transform: rotateX(180deg) translateZ(7.5px);
-  transform: rotateX(180deg) translateZ(7.5px);
+  border: 2px solid rgba(136, 155, 250, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(136, 155, 250, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
+  -webkit-transform: rotateX(180deg) translateZ(21.25px);
+  -moz-transform: rotateX(180deg) translateZ(21.25px);
+  -ms-transform: rotateX(180deg) translateZ(21.25px);
+  transform: rotateX(180deg) translateZ(21.25px);
 }
 
 .demo-perspective-photo .example6 .x .y1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(141, 137, 231, 0.7);
-  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
-  -webkit-transform: rotateX(90deg) translateZ(7.5px);
-  -moz-transform: rotateX(90deg) translateZ(7.5px);
-  -ms-transform: rotateX(90deg) translateZ(7.5px);
-  transform: rotateX(90deg) translateZ(7.5px);
+  border: 2px solid rgba(136, 155, 250, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(136, 155, 250, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
+  -webkit-transform: rotateX(90deg) translateZ(21.25px);
+  -moz-transform: rotateX(90deg) translateZ(21.25px);
+  -ms-transform: rotateX(90deg) translateZ(21.25px);
+  transform: rotateX(90deg) translateZ(21.25px);
 }
 
 .demo-perspective-photo .example6 .x .y2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(141, 137, 231, 0.7);
-  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
-  -webkit-transform: rotateX(270deg) translateZ(7.5px);
-  -moz-transform: rotateX(270deg) translateZ(7.5px);
-  -ms-transform: rotateX(270deg) translateZ(7.5px);
-  transform: rotateX(270deg) translateZ(7.5px);
+  border: 2px solid rgba(136, 155, 250, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(136, 155, 250, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
+  -webkit-transform: rotateX(270deg) translateZ(21.25px);
+  -moz-transform: rotateX(270deg) translateZ(21.25px);
+  -ms-transform: rotateX(270deg) translateZ(21.25px);
+  transform: rotateX(270deg) translateZ(21.25px);
 }
 
 .demo-perspective-photo .example6 .x .z1 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(141, 137, 231, 0.7);
-  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
-  -webkit-transform: rotateY(90deg) translateZ(7.5px);
-  -moz-transform: rotateY(90deg) translateZ(7.5px);
-  -ms-transform: rotateY(90deg) translateZ(7.5px);
-  transform: rotateY(90deg) translateZ(7.5px);
+  border: 2px solid rgba(136, 155, 250, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(136, 155, 250, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
+  -webkit-transform: rotateY(90deg) translateZ(21.25px);
+  -moz-transform: rotateY(90deg) translateZ(21.25px);
+  -ms-transform: rotateY(90deg) translateZ(21.25px);
+  transform: rotateY(90deg) translateZ(21.25px);
 }
 
 .demo-perspective-photo .example6 .x .z2 {
   top: 6.25%;
   left: 6.25%;
-  border: 2px solid rgba(141, 137, 231, 0.7);
-  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
-  -webkit-transform: rotateY(270deg) translateZ(7.5px);
-  -moz-transform: rotateY(270deg) translateZ(7.5px);
-  -ms-transform: rotateY(270deg) translateZ(7.5px);
-  transform: rotateY(270deg) translateZ(7.5px);
+  border: 2px solid rgba(136, 155, 250, 0.8);
+  background-image: radial-gradient(transparent 70%, rgba(136, 155, 250, 0.8) 100%);
+  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
+  -webkit-transform: rotateY(270deg) translateZ(21.25px);
+  -moz-transform: rotateY(270deg) translateZ(21.25px);
+  -ms-transform: rotateY(270deg) translateZ(21.25px);
+  transform: rotateY(270deg) translateZ(21.25px);
 }
 
 .demo-perspective-photo .example6 .x .xInner {
-  border: 2px solid rgba(141, 137, 231, 0.7);
-  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
+  border: 2px solid rgba(136, 155, 250, 0.8);
+  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
   width: 100%;
   top: 50%;
 }
@@ -1143,8 +1207,8 @@
 .demo-perspective-photo .example6 .x .yInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(141, 137, 231, 0.7);
-  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
+  border: 2px solid rgba(136, 155, 250, 0.8);
+  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
@@ -1154,8 +1218,8 @@
 .demo-perspective-photo .example6 .x .zInner {
   height: 100%;
   left: 50%;
-  border: 2px solid rgba(141, 137, 231, 0.7);
-  box-shadow: 0 0 10px rgba(141, 137, 231, 0.7);
+  border: 2px solid rgba(136, 155, 250, 0.8);
+  box-shadow: 0 0 25px rgba(136, 155, 250, 0.8);
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -ms-transform: rotateY(90deg);
