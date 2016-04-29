@@ -3,7 +3,11 @@
 
 自己学习 css3 的一个过程，没有对兼容性进行处理，请使用最新版 chrome 浏览器浏览打开
 
-个人博客园相关博文：[【CSS3进阶】酷炫的3D旋转透视](http://www.cnblogs.com/coco1s/p/5414153.html)
+个人博客园相关博文：
+
+[【CSS3进阶】酷炫的3D旋转透视](http://www.cnblogs.com/coco1s/p/5414153.html)
+
+[【Web动画】CSS3 3D 行星运转 && 浏览器渲染原理](http://www.cnblogs.com/coco1s/p/5439619.html)
 
 ## css3 3d 行星，实现简单的太阳系旋转（不要吐槽未够8颗行星）
 
