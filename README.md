@@ -3,17 +3,6 @@
 
 自己学习 CCS3 的一个过程，没有将太多精力放在兼容性进行处理上，如果打开页面出现错位无法正常浏览，请使用最新版 Chrome 浏览器浏览打开
 
-## web 动画作品集合(建议使用最新版 chrome 打开)
-
-[CSS3 3D 行星运转](http://chokcoco.github.io/demo/css3demo/html/exampleSolarSystem.html)
-
-[CSS3 3D 透视立方体照片墙](http://chokcoco.github.io/demo/css3demo/html/index.html)
-
-[CSS3 奇思妙想](http://chokcoco.github.io/magicCss/html/index.html)
-
-[Web 动画曲线运动](http://chokcoco.github.io/demo/curveJS/html/index.html)
-
-[tweenmax动画](http://chokcoco.github.io/demo/homepage/html/index.html)
 
 ## 个人博客园相关博文：
 
@@ -44,6 +33,18 @@
 
 #### 纯 css3 loading 图
 ![](https://github.com/chokcoco/css3-/blob/master/images/example4.gif)
+
+## web 动画作品集合(建议使用最新版 chrome 打开)
+
+[CSS3 3D 行星运转](http://chokcoco.github.io/demo/css3demo/html/exampleSolarSystem.html)
+
+[CSS3 3D 透视立方体照片墙](http://chokcoco.github.io/demo/css3demo/html/index.html)
+
+[CSS3 奇思妙想](http://chokcoco.github.io/magicCss/html/index.html)
+
+[Web 动画曲线运动](http://chokcoco.github.io/demo/curveJS/html/index.html)
+
+[tweenmax动画](http://chokcoco.github.io/demo/homepage/html/index.html)
 
 ## License
 MIT
