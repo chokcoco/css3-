@@ -40,7 +40,7 @@
 
 [CSS3 3D 透视立方体照片墙](http://chokcoco.github.io/demo/css3demo/html/index.html)
 
-[CSS3 奇思妙想](http://chokcoco.github.io/magicCss/html/index.html)
+[CSS3 奇思妙想 -- 使用单标签完成各种图案](http://chokcoco.github.io/magicCss/html/index.html)
 
 [Web 动画曲线运动](http://chokcoco.github.io/demo/curveJS/html/index.html)
 
