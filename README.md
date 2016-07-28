@@ -42,6 +42,8 @@
 
 [CSS3 奇思妙想 -- 使用单标签完成各种图案](http://chokcoco.github.io/magicCss/html/index.html)
 
+[SVG奇思妙想](http://sbco.cc/demo/svg/html/index.html)
+
 [Web 动画曲线运动](http://chokcoco.github.io/demo/curveJS/html/index.html)
 
 [tweenmax动画](http://chokcoco.github.io/demo/homepage/html/index.html)
