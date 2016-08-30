@@ -36,6 +36,8 @@
 
 ## web 动画作品集合(建议使用最新版 chrome 打开)
 
+[BOOMJS 图片爆炸](http://sbco.cc/demo/boom/demo.html)
+
 [CSS3 3D 行星运转](http://chokcoco.github.io/demo/css3demo/html/exampleSolarSystem.html)
 
 [CSS3 3D 透视立方体照片墙](http://chokcoco.github.io/demo/css3demo/html/index.html)
