@@ -42,6 +42,8 @@
 
 [CSS3 3D 透视立方体照片墙](http://chokcoco.github.io/demo/css3demo/html/index.html)
 
+[CSS3 3D 视角](sbco.cc/demo/3dview/html/index.html)
+
 [CSS3 奇思妙想 -- 使用单标签完成各种图案](http://chokcoco.github.io/magicCss/html/index.html)
 
 [SVG奇思妙想](http://sbco.cc/demo/svg/html/index.html)
