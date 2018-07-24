@@ -88,6 +88,8 @@
 
 [CSS 实现意想不到的按钮效果](https://codepen.io/Chokcoco/pen/MGPwLg)
 
+[Magic filter](https://codepen.io/Chokcoco/pen/pLKmZQ)
+
 ## Contact
 
 如果有任何问题或者疑问，可以加 QQ 群：418766876 联系我。
