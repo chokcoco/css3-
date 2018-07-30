@@ -90,7 +90,7 @@
 
 [Magic filter](https://codepen.io/Chokcoco/pen/pLKmZQ)
 
-[CSS 滚动时差](https://codepen.io/Chokcoco/pen/XBgBBp)
+[CSS 滚动视差](https://codepen.io/Chokcoco/pen/XBgBBp)
 
 ## Contact
 
