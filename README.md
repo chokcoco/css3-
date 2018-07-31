@@ -92,6 +92,8 @@
 
 [CSS 滚动视差](https://codepen.io/Chokcoco/pen/XBgBBp)
 
+[3D Spiral Number](https://codepen.io/Chokcoco/pen/LeWbaB)
+
 ## Contact
 
 如果有任何问题或者疑问，可以加 QQ 群：418766876 联系我。
