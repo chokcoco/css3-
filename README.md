@@ -94,6 +94,8 @@
 
 [3D Spiral Number](https://codepen.io/Chokcoco/pen/LeWbaB)
 
+[3d Number Count](https://codepen.io/Chokcoco/pen/qXVxyw)
+
 ## Contact
 
 如果有任何问题或者疑问，可以加 QQ 群：418766876 联系我。
