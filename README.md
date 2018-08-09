@@ -102,6 +102,8 @@
 
 [CSS 实现点击波纹效果](https://codepen.io/Chokcoco/pen/wxYZWO)
 
+[conic-gradient 圆锥渐变实现酷炫光影效果](https://codepen.io/Chokcoco/pen/gRRdQq)
+
 ## Contact
 
 如果有任何问题或者疑问，可以加 QQ 群：418766876 联系我。
