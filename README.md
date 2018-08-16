@@ -108,6 +108,8 @@
 
 [正负旋转相消](https://codepen.io/Chokcoco/pen/XaBJPy)
 
+[fontVariationSettings](https://codepen.io/Chokcoco/pen/oMrWJB)
+
 ## Contact
 
 如果有任何问题或者疑问，可以加 QQ 群：418766876 联系我。
