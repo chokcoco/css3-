@@ -108,7 +108,7 @@
 
 [正负旋转相消](https://codepen.io/Chokcoco/pen/XaBJPy)
 
-[fontVariationSettings文字动画](https://codepen.io/Chokcoco/pen/oMrWJB)
+[font-variation-settings文字动画](https://codepen.io/Chokcoco/pen/oMrWJB)
 
 ## Contact
 
