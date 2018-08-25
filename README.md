@@ -104,8 +104,6 @@
 
 [圆锥渐变实现酷炫光影效果](https://codepen.io/Chokcoco/pen/gRRdQq)
 
-[background-attachment 实现点击水纹效果](https://codepen.io/Chokcoco/pen/wxYZWO)
-
 [正负旋转相消](https://codepen.io/Chokcoco/pen/XaBJPy)
 
 [font-variation-settings文字动画](https://codepen.io/Chokcoco/pen/oMrWJB)
