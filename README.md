@@ -117,7 +117,4 @@
 ![qqqun](https://github.com/chokcoco/iCSS/blob/master/qqqun.png)
 
 
-## License
-MIT
-
 
