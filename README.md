@@ -108,6 +108,8 @@
 
 [font-variation-settings文字动画](https://codepen.io/Chokcoco/pen/oMrWJB)
 
+灰色遮罩实现
+
 ## Contact
 
 如果有任何问题或者疑问，可以加 QQ 群：418766876 联系我。
