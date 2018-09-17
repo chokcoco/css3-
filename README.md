@@ -108,9 +108,8 @@
 
 [font-variation-settings文字动画](https://codepen.io/Chokcoco/pen/oMrWJB)
 
-[CSS Snap point]
 
-灰色遮罩实现
+
 
 ## Contact
 
