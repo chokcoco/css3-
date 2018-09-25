@@ -108,7 +108,7 @@
 
 [font-variation-settings 文字动画](https://codepen.io/Chokcoco/pen/oMrWJB)
 
-[CSS Shadow Word](https://codepen.io/Chokcoco/pen/bxQRxG)
+[CSS Shadow Word Animation](https://codepen.io/Chokcoco/pen/bxQRxG)
 
 
 ## Contact
