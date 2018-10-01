@@ -52,7 +52,7 @@
 
 [tweenmax动画](http://chokcoco.github.io/demo/homepage/html/index.html)
 
-## 其他 CSS 作品
+## 其他 CSS 效果
 
 [CSS3 3D 行星运转](http://chokcoco.github.io/demo/css3demo/html/exampleSolarSystem.html)
 
