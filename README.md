@@ -34,7 +34,7 @@
 #### 纯 css3 loading 图
 ![](https://github.com/chokcoco/css3-/blob/master/images/example4.gif)
 
-## web 动画作品集合(建议使用最新版 chrome 打开)
+## web 动画作品集合
 
 [BOOMJS 图片爆炸](http://sbco.cc/demo/boom/demo.html)
 
@@ -110,7 +110,6 @@
 
 [CSS Shadow Word Animation](https://codepen.io/Chokcoco/pen/bxQRxG)
 
-
 ## Contact
 
 如果有任何问题或者疑问，可以加 QQ 群：418766876 联系我。
@@ -118,6 +117,3 @@
 也欢迎想讨论各种天马行空的 CSS 相关问题的小伙伴们加入。
 
 ![qqqun](https://github.com/chokcoco/iCSS/blob/master/qqqun.png)
-
-
-
